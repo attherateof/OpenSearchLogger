@@ -1,17 +1,17 @@
 <?php
 /**
- * Copyright © 2025 EasyMage. All rights reserved.
+ * Copyright © 2025 MageStack. All rights reserved.
  * See COPYING.txt for license details.
  *
  * @author    Amit Biswas <amit.biswas.webdeveloper@gmail.com>
- * @copyright 2025 EasyMage
+ * @copyright 2025 MageStack
  * @license   http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 declare(strict_types=1);
 
-namespace EasyMage\OpenSearchLogger\Cron;
+namespace MageStack\OpenSearchLogger\Cron;
 
-use EasyMage\OpenSearchLogger\Model\LogIndexManager;
+use MageStack\OpenSearchLogger\Model\LogIndexManager;
 use Psr\Log\LoggerInterface;
 use Throwable;
 
@@ -19,7 +19,7 @@ use Throwable;
  * Cron job for creating monthly log index
  *
  * Class CreateIndex
- * @package EasyMage\OpenSearchLogger\Cron
+ * @package MageStack\OpenSearchLogger\Cron
  */
 class CreateIndex
 {

@@ -1,5 +1,5 @@
-# Magento 2 Module - EasyMage_OpenSearchLogger
-    ``easymage/module-opensearchlogger``
+# Magento 2 Module - MageStack_OpenSearchLogger
+    ``magestack/module-opensearchlogger``
 
 ## Main Functionalities
 This Magento 2 module provides a mechanism to store a copy of your application logs into a secondary store (e.g., Elasticsearch/OpenSearch), enabling faster and more convenient log searching, filtering, and analysis — directly from logs emitted by Magento.
@@ -25,8 +25,8 @@ This Magento 2 module provides a mechanism to store a copy of your application l
     ``Magento 2.4.8``
 
 ## Installation
- - Install the module composer by running `composer require easymage/module-opensearchlogger`
- - enable the module by running `php bin/magento module:enable EasyMage_OpenSearchLogger`
+ - Install the module composer by running `composer require magestack/module-opensearchlogger`
+ - enable the module by running `php bin/magento module:enable MageStack_OpenSearchLogger`
  - apply database updates by running `php bin/magento setup:upgrade`
  - Flush the cache by running `php bin/magento cache:flush`
 

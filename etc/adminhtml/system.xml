@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <!--
- * Copyright © 2025 EasyMage. All rights reserved.
+ * Copyright © 2025 MageStack. All rights reserved.
  * See COPYING.txt for license details.
  *
  * @author    Amit Biswas <amit.biswas.webdeveloper@gmail.com>
- * @copyright 2025 EasyMage
+ * @copyright 2025 MageStack
  * @license   http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
     <system>
         <tab id="easy_mage_tab" translate="label" sortOrder="900">
-            <label>Easy Mage</label>
+            <label>Mage Stack</label>
         </tab>
         <section id="easy_mage" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
             <class>separator-top</class>
@@ -29,7 +29,7 @@
                 <field id="log_levels" translate="label" type="multiselect" showInDefault="1" canRestore="1" sortOrder="30">
                     <label>Allowed levels</label>
                     <comment>Select log levels to synchronize with OpenSearch</comment>
-                    <source_model>EasyMage\OpenSearchLogger\Model\Config\Source\LogLevels</source_model>
+                    <source_model>MageStack\OpenSearchLogger\Model\Config\Source\LogLevels</source_model>
                 </field>
                 <field id="cron_schedule" translate="label" type="text" showInDefault="1" canRestore="1" sortOrder="40">
                     <label>Log rotation cron</label>

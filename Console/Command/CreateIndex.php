@@ -1,17 +1,17 @@
 <?php
 /**
- * Copyright © 2025 EasyMage. All rights reserved.
+ * Copyright © 2025 MageStack. All rights reserved.
  * See COPYING.txt for license details.
  *
  * @author    Amit Biswas <amit.biswas.webdeveloper@gmail.com>
- * @copyright 2025 EasyMage
+ * @copyright 2025 MageStack
  * @license   http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 declare(strict_types=1);
 
-namespace EasyMage\OpenSearchLogger\Console\Command;
+namespace MageStack\OpenSearchLogger\Console\Command;
 
-use EasyMage\OpenSearchLogger\Model\LogIndexManager;
+use MageStack\OpenSearchLogger\Model\LogIndexManager;
 use Magento\Framework\Console\Cli;
 use Psr\Log\LoggerInterface;
 use Symfony\Component\Console\Command\Command;
@@ -24,7 +24,7 @@ use Throwable;
  * Create monthly index command
  *
  * Class CreateIndex
- * @namespace EasyMage\OpenSearchLogger\Console\Command
+ * @namespace MageStack\OpenSearchLogger\Console\Command
  */
 class CreateIndex extends Command
 {

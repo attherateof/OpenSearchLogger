@@ -1,18 +1,18 @@
 <?php
 /**
- * Copyright © 2025 EasyMage. All rights reserved.
+ * Copyright © 2025 MageStack. All rights reserved.
  * See COPYING.txt for license details.
  *
  * @author    Amit Biswas <amit.biswas.webdeveloper@gmail.com>
- * @copyright 2025 EasyMage
+ * @copyright 2025 MageStack
  * @license   http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 declare(strict_types=1);
 
-namespace EasyMage\OpenSearchLogger\Plugin;
+namespace MageStack\OpenSearchLogger\Plugin;
 
-use EasyMage\OpenSearchLogger\Api\ConfigInterface;
-use EasyMage\OpenSearchLogger\Model\SearchClient;
+use MageStack\OpenSearchLogger\Api\ConfigInterface;
+use MageStack\OpenSearchLogger\Model\SearchClient;
 use Magento\Framework\Logger\Handler\Base;
 use Psr\Log\LoggerInterface;
 use Monolog\LogRecord as MonologLogRecord;
@@ -22,7 +22,7 @@ use Throwable;
  * LogRecord Plugin
  *
  * Class LogRecord
- * @package EasyMage\OpenSearchLogger\Plugin
+ * @package MageStack\OpenSearchLogger\Plugin
  */
 class LogRecord
 {
