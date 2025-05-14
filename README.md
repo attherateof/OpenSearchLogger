@@ -1,3 +1,5 @@
+⚠️ **NOTICE:** Use [LogstashWrapper](https://github.com/attherateof/LogstashWrapper) instead of this repository.
+
 # Magento 2 Module - MageStack_OpenSearchLogger
     ``magestack/module-opensearchlogger``
 
